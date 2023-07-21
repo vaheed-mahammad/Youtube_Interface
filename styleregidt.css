@@ -1,0 +1,64 @@
+body{
+    border-radius: 10px;
+    background-color:wheat;
+    letter-spacing: normal;
+}
+.style{
+    margin: auto;
+    background-color:whitesmoke;
+    box-sizing:border-box;
+    box-shadow: 20px 10px 20px 0px rgba(0,0, 0, 7);
+    width: 40%;
+    border-radius: 5px;
+    padding: 10px;
+}
+label {
+   padding:10px;
+   font-style: oblique;
+   font-weight: bold;
+   font-size: larger;
+   display: inline;
+}
+input{
+    border-radius: 2px;
+    width:100%;
+    font-size: large;
+    padding: 10px;
+    display: inline;
+}
+
+.reg{ 
+    background-color:aquamarine;
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+    margin-left: 40%;
+   display: inline;
+}
+.log{
+    background-color:aquamarine;
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+    margin-left: 42%;
+    margin-top: 2%;
+   display: inline;
+
+}
+@media screen and (max-width:600px) {
+    .style{
+        width:100%;
+        height: 100%;
+        padding: 0%;
+        box-shadow: none;
+        border-radius: 10px;
+        align-items: center;
+       
+
+    }
+    body{
+        background-color: whitesmoke;
+      
+    }
+    
+}
